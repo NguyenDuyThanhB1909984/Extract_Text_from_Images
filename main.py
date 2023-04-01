@@ -2,6 +2,13 @@ import streamlit as st
 import cv2
 import pytesseract
 import numpy as np 
+import os
+
+# Install tesseract-ocr
+os.system('sudo apt-get install tesseract-ocr')
+
+# Set tesseract path
+pytesseract.pytesseract.tesseract_cmd = '/usr/bin/tesseract'
 
 st.set_option('deprecation.showfileUploaderEncoding', False)
 
