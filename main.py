@@ -5,6 +5,8 @@ import numpy as np
 import os
 
 # Install tesseract-ocr
+os.system('sudo apt-get update')
+os.system('sudo apt-get install -y sudo')
 os.system('sudo apt-get install tesseract-ocr')
 
 # Set tesseract path
