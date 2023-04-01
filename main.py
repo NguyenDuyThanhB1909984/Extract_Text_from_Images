@@ -4,13 +4,13 @@ import pytesseract
 import numpy as np 
 import os
 
-# Install tesseract-ocr
-os.system('apt-get update')
-os.system('apt-get install -y sudo')
-os.system('apt-get install tesseract-ocr')
+# # Install tesseract-ocr
+# os.system('apt-get update')
+# os.system('apt-get install -y sudo')
+# os.system('apt-get install tesseract-ocr')
 
-# Set tesseract path
-pytesseract.pytesseract.tesseract_cmd = '/usr/bin/tesseract'
+# # Set tesseract path
+# pytesseract.pytesseract.tesseract_cmd = '/usr/bin/tesseract'
 
 st.set_option('deprecation.showfileUploaderEncoding', False)
 
